@@ -1,0 +1,53 @@
+@media ( max-width: 767px )
+    .header
+        &_official
+            display: none !important
+        &_logo
+            img
+                width: 80% !important
+    .carousel
+        display: none !important
+    .feed
+        &_item
+            flex-wrap: wrap !important
+            justify-content: center !important
+            img
+                width: 60% !important
+                height: 100% !important
+        &_subtitle
+            margin-top: 30px !important
+    .catalog
+        &_tabs, &_tab
+            padding-left: 0 !important
+        &_tab
+            margin-bottom: 20px !important
+        &_content
+            justify-content: center !important
+    .advantages
+        &_description
+            text-align: left !important
+    .footer
+        &_info
+            width: 100% !important
+    .promo
+        &_icons
+            width: 100% !important
+// @media screen and ( max-width: 365px )
+@media (min-width: 768px) and (max-width: 991px)
+    .carousel
+        &_inner
+            img
+                display: block !important
+                margin: 0 auto !important
+                width: 80% !important
+                height: 100% !important
+        .slick-prev
+            left: 0 !important
+        .slick-next
+            right: 0 !important
+    .feed
+        &_item
+            img
+                width: 100% !important
+                height: 100% !important
+// @media (min-width: 992px) and (max-width: 1199px)

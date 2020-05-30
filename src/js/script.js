@@ -60,7 +60,7 @@ $(document).ready(function(){
 
       //pageup
       $(window).scroll(function(){
-          if ($(this).scrollTop() > 2000){
+          if ($(this).scrollTop() > 1000){
               $('.pageup').fadeIn();
           } else {
               $('.pageup').fadeIn();
